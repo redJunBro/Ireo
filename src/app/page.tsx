@@ -164,9 +164,10 @@ export default function Home() {
           </h2>
         </div>
         <div className="absolute inset-0 w-full h-full flex flex-col items-center justify-end pb-2">
-          <div className="text-lg font-semibold pb-1 font-ylee">
+          <div className="text-base font-semibold pb-1 font-ylee text-center leading-relaxed">
             제가 좋아하는 감정은 ‘노랑’입니다.
-‘노랑의 시’를 기록하는 시인 이레오입니다.
+            <br />
+            ‘노랑의 시’를 기록하는 시인 이레오입니다.
           </div>
         </div>
 

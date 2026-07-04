@@ -55,23 +55,23 @@ export const BookData: Book[] = [
       "Sleek cut creates a polished and sophisticated look with clean lines",
     contents: [
       {
-        textContents: "노랑의 시 1\n-\n\n",
+        textContents: "",
         image: "/images/ireo_01.png",
       },
       {
-        textContents: "노랑의 시 2\n-\n\n",
+        textContents: "",
         image: "/images/ireo_02.png",
       },
       {
-        textContents: "노랑의 시 3\n-\n\n",
+        textContents: "",
         image: "/images/ireo_03.png",
       },
       {
-        textContents: "노랑의 시 4\n-\n\n",
+        textContents: "",
         image: "/images/ireo_04.png",
       },
       {
-        textContents: "노랑의 시 5\n-\n\n",
+        textContents: "",
         image: "/images/ireo_05.png",
       },
     ],

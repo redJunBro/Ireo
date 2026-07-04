@@ -245,27 +245,29 @@ export default function FullScreenModal({
                       />
                     </div>
                   )}
-                  <div
-                    className={`w-full max-w-2xl mt-4 px-4 pb-8 ${
-                      descriptionVisible
-                        ? animateDescription
-                          ? "animate-slide-fade-in"
-                          : ""
-                        : "hidden"
-                    }`}
-                  >
-                    <p
-                      className="text-gray-800 font-kopub"
-                      style={{
-                        letterSpacing: "-0.2px",
-                        marginBottom: "calc(18px * 2.0)",
-                        lineHeight: "1.9",
-                        fontWeight: 400,
-                      }}
+                  {content.textContents.trim() && (
+                    <div
+                      className={`w-full max-w-2xl mt-4 px-4 pb-8 ${
+                        descriptionVisible
+                          ? animateDescription
+                            ? "animate-slide-fade-in"
+                            : ""
+                          : "hidden"
+                      }`}
                     >
-                      {formatTextContents(content.textContents)}
-                    </p>
-                  </div>
+                      <p
+                        className="text-gray-800 font-kopub"
+                        style={{
+                          letterSpacing: "-0.2px",
+                          marginBottom: "calc(18px * 2.0)",
+                          lineHeight: "1.9",
+                          fontWeight: 400,
+                        }}
+                      >
+                        {formatTextContents(content.textContents)}
+                      </p>
+                    </div>
+                  )}
                 </CarouselItem>
               ))}
             </CarouselContent>
